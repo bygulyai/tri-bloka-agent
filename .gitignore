@@ -1,5 +1,5 @@
-# Local configuration
-.claude/
+# Local configuration (keep skill.md published)
+.claude/settings.local.json
 .mcp.json
 config.json
 

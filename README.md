@@ -72,7 +72,7 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/USER/tri-bloka-agent.git
+git clone https://github.com/bygulyai/tri-bloka-agent.git
 cd tri-bloka-agent
 
 # 2. Скопируйте и заполните конфигурацию
@@ -146,6 +146,25 @@ tri-bloka-agent/
 5. Собирает brief JSON и запускает `build_presentation.ps1` (БЛОК 3).
 6. Валидирует PDF и удаляет временные файлы.
 7. Возвращает все три блока менеджеру.
+
+## Скриншоты
+
+### БЛОК 1 — CRM-отчёт
+Агент получает сырые заметки и формирует структурированный CRM-отчёт:
+![CRM-отчёт](images/block1-crm-report.png)
+
+### БЛОК 2 — сообщение клиенту
+Персонализированное письмо-продолжение разговора с привязкой к фактам консультации:
+![Сообщение клиенту](images/block2-client-message.png)
+
+### БЛОК 3 — PDF-презентация
+16-слайдовая персонализированная презентация с ценами и визуалом продукта:
+![Слайд 1 — Направление](images/block3-slide1-direction.png)
+![Слайд 4 — Персональное предложение](images/block3-slide4-pricing.png)
+![Слайд 6 — Знакомство с консультантом](images/block3-slide6-consultant.png)
+
+### Структура проекта на GitHub
+![Репозиторий на GitHub](images/github-repo.png)
 
 ## Настройка под свою компанию
 
