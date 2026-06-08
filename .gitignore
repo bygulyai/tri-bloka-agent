@@ -1,0 +1,29 @@
+# Local configuration
+.claude/
+.mcp.json
+config.json
+
+# Client data and reports - never commit
+reports/
+
+# Personal photos and reference PDFs
+references/consultant-photo.png
+references/reference-presentation.pdf
+
+# Temporary files
+tmp/
+*.tmp
+*.bak
+brief_*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+*.pptx

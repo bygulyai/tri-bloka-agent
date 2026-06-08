@@ -1,0 +1,36 @@
+{
+  "company": {
+    "name": "Название компании",
+    "site": "https://example.com",
+    "brandText": "example.com",
+    "consultant": {
+      "name": "Имя Фамилия",
+      "photo": "references/consultant-photo.png",
+      "competencies": [
+        "Определяю точки максимальной эффективности в задачах бизнеса и личной продуктивности.",
+        "Помогаю выбрать маршрут под конкретную цель, а не под абстрактный интерес.",
+        "Разбираю, какие решения реально помогут в вашем сценарии.",
+        "Показываю, как упаковать навык в понятный план, практику и первые прикладные проекты.",
+        "Сопровождаю решение: от диагностики запроса до выбора тарифа и следующего шага."
+      ]
+    }
+  },
+  "paths": {
+    "output_dir": "reports",
+    "reference_pdf": "references/reference-presentation.pdf"
+  },
+  "defaults": {
+    "pricing": {
+      "oneTimeDiscountPercent": 10,
+      "installmentMonths": 24,
+      "specialPriceHeader": "Цена в рассрочку",
+      "oneTimePriceHeader": "Цена при единовременной оплате по карте"
+    },
+    "presentation": {
+      "slide1_title_line1": "ВАШЕ НАПРАВЛЕНИЕ ПО ИТОГАМ",
+      "slide1_title_line2": "ЛИЧНОЙ КОНСУЛЬТАЦИИ С ЭКСПЕРТОМ",
+      "slide1_ai_badge_text": "AI",
+      "slide1_ai_badge_description": "Научитесь собирать AI-агентов и автоматизации под реальные задачи без сложной разработки."
+    }
+  }
+}
